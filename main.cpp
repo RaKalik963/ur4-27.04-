@@ -9,7 +9,7 @@ int main()
     cin >> number;
 
     if (number < 100000 || number > 999999) {
-        std::cout << "entered number is not 6-digit number" << std::endl;
+        cout << "entered number is not 6-digit number" << endl;
     }
 
     int six1 = number / 100000;
@@ -20,10 +20,10 @@ int main()
     int six6 = number % 10;
 
     if (six1 + six2 + six3 == six4 + six5 + six6) {
-        std::cout << "you enter lucky number" << std::endl;
+        cout << "you enter lucky number" << endl;
     }
     else {
-        std::cout << "you enter UNlucky number" << std::endl;
+        cout << "you enter UNlucky number" << endl;
     }
 	return 0;
 	system("pause");
