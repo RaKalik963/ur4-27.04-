@@ -30,7 +30,6 @@ int main()
 	}
 	else {
 		cout << "the aircraft is very heavy" << endl;
-		return 0;
 	}
 	int fuel_needed = A_B * fuel + B_C * fuel;
 
